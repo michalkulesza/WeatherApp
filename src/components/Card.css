@@ -1,0 +1,44 @@
+.card-container {
+  height: 150px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-info {
+  margin-left: 20px;
+}
+
+.card-temperature {
+  font-size: 2.5em;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.card-stats {
+  font-size: 0.9em;
+}
+
+.card-icon {
+  height: 220px;
+  width: 220px;
+  margin: 20px 0 0 120px;
+  padding-left: 20px;
+  opacity: 0.15;
+  z-index: 0;
+  position: absolute;
+}
+
+.card-precip {
+  margin-bottom: 2px;
+}
+
+.wi-thermometer-exterior {
+  margin-right: 3px;
+}

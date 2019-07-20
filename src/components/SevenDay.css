@@ -1,0 +1,32 @@
+@media (max-width: 1000px) {
+  .cards-container {
+    max-width: 640px !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .cards-container {
+    max-width: 320px !important;
+    justify-content: center !important;
+  }
+}
+
+.sevenday-wrapper {
+  margin: 30px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  height: auto;
+  justify-content: space-between;
+}
